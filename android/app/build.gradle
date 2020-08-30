@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.movie_app"
+        applicationId "com.flickr"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

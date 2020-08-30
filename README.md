@@ -1,8 +1,6 @@
-# Movie App
+# Flickr
 
-Movie app is an application that uses the [TMDB API](https://www.themoviedb.org/?language=en-US) and is built with React Native.
-
-The app's design is based on [Thomas' app](https://github.com/Dimillian/MovieSwiftUI) which is written in SwiftUI.
+Flickr is an application that uses the [TMDB API](https://www.themoviedb.org/?language=en-US) and is built with React Native.
 
 |        Home Screen         |        Search Screen         |
 | :------------------------: | :--------------------------: |

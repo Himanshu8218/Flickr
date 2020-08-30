@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* movie_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* movie_appTests.m */; };
-		0FDBFDE46599E3BDABDF1861 /* libPods-movie_app-movie_appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAFD2C4CD38DAD288384DC /* libPods-movie_app-movie_appTests.a */; };
+		00E356F31AD99517003FC87E /* flickrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* flickrTests.m */; };
+		0FDBFDE46599E3BDABDF1861 /* libPods-flickr-flickrTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CAFD2C4CD38DAD288384DC /* libPods-flickr-flickrTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +16,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* movie_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* movie_appTests.m */; };
-		4471E46CF3214170B2C3D5CF /* libPods-movie_app-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8FDB4A0C554EB0F9B5D449 /* libPods-movie_app-tvOSTests.a */; };
-		73E2C518D63F33AA5C03D553 /* libPods-movie_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAACFF58928037E095875978 /* libPods-movie_app.a */; };
-		8334660EEE34587E0F5294C1 /* libPods-movie_app-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ABBE12306ABD658EE3FC82 /* libPods-movie_app-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* flickrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* flickrTests.m */; };
+		4471E46CF3214170B2C3D5CF /* libPods-flickr-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8FDB4A0C554EB0F9B5D449 /* libPods-flickr-tvOSTests.a */; };
+		73E2C518D63F33AA5C03D553 /* libPods-flickr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAACFF58928037E095875978 /* libPods-flickr.a */; };
+		8334660EEE34587E0F5294C1 /* libPods-flickr-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ABBE12306ABD658EE3FC82 /* libPods-flickr-tvOS.a */; };
 		85B6A19EEBF544688880AB0D /* fjallaone.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635F74B7BBD48B483595E69 /* fjallaone.ttf */; };
 /* End PBXBuildFile section */
 
@@ -29,36 +29,36 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = movie_app;
+			remoteInfo = flickr;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "movie_app-tvOS";
+			remoteInfo = "flickr-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* movie_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movie_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* flickrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flickrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* movie_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = movie_appTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* flickrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flickrTests.m; sourceTree = "<group>"; };
 		03E2CECF12704D038A2084C3 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		0BB8603773804D8B8BD6ABC1 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* movie_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movie_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = movie_app/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = movie_app/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* flickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = flickr/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = flickr/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = movie_app/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = movie_app/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = movie_app/main.m; sourceTree = "<group>"; };
-		1B8F7430DA6EF04FD23203A4 /* Pods-movie_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie_app.release.xcconfig"; path = "Target Support Files/Pods-movie_app/Pods-movie_app.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = flickr/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = flickr/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = flickr/main.m; sourceTree = "<group>"; };
+		1B8F7430DA6EF04FD23203A4 /* Pods-flickr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr.release.xcconfig"; path = "Target Support Files/Pods-flickr/Pods-flickr.release.xcconfig"; sourceTree = "<group>"; };
 		2222FD63886340B49B9551FD /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* movie_app-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movie_app-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* movie_app-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movie_app-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D72CF8CF46E07FA65CE0661 /* Pods-movie_app-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie_app-tvOS.release.xcconfig"; path = "Target Support Files/Pods-movie_app-tvOS/Pods-movie_app-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* flickr-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flickr-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* flickr-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flickr-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D72CF8CF46E07FA65CE0661 /* Pods-flickr-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr-tvOS.release.xcconfig"; path = "Target Support Files/Pods-flickr-tvOS/Pods-flickr-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2EEAE9CDE37841528564DB82 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		317A6867C6664032B162C0EF /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		3635F74B7BBD48B483595E69 /* fjallaone.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fjallaone.ttf; path = ../src/assets/fonts/fjallaone.ttf; sourceTree = "<group>"; };
@@ -78,26 +78,26 @@
 		3771762F246B809D00FE68BC /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		37717630246B809D00FE68BC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		37717631246B809D00FE68BC /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
-		50CAFD2C4CD38DAD288384DC /* libPods-movie_app-movie_appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-movie_app-movie_appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CAFD2C4CD38DAD288384DC /* libPods-flickr-flickrTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flickr-flickrTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54139551C4034B06858A04ED /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		5F306D6CAEEE4930A2A12BFE /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		6A9468EB5336B800FCEBB754 /* Pods-movie_app-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie_app-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-movie_app-tvOSTests/Pods-movie_app-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		7022EBC2CAD270BA609EF30E /* Pods-movie_app-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie_app-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-movie_app-tvOS/Pods-movie_app-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6A9468EB5336B800FCEBB754 /* Pods-flickr-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-flickr-tvOSTests/Pods-flickr-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7022EBC2CAD270BA609EF30E /* Pods-flickr-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-flickr-tvOS/Pods-flickr-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7D72001E3278489891F279DF /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		7FB58280C3F306783C523AE8 /* Pods-movie_app-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie_app-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-movie_app-tvOSTests/Pods-movie_app-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FB58280C3F306783C523AE8 /* Pods-flickr-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-flickr-tvOSTests/Pods-flickr-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		820FEB703E0E474E9A77B31D /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		86880013C7FC43E5AA033111 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		8E8FDB4A0C554EB0F9B5D449 /* libPods-movie_app-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-movie_app-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8FDB4A0C554EB0F9B5D449 /* libPods-flickr-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flickr-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B65BEBCDA24A89B34F09F5 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		A8AA41A2FBC97187B751C4B7 /* Pods-movie_app-movie_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie_app-movie_appTests.debug.xcconfig"; path = "Target Support Files/Pods-movie_app-movie_appTests/Pods-movie_app-movie_appTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAACFF58928037E095875978 /* libPods-movie_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-movie_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8AA41A2FBC97187B751C4B7 /* Pods-flickr-flickrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr-flickrTests.debug.xcconfig"; path = "Target Support Files/Pods-flickr-flickrTests/Pods-flickr-flickrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAACFF58928037E095875978 /* libPods-flickr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flickr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE1198FDEE742BBA89FE913 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		BC8466ABBEAE4CEABFB48775 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		C8B0FCE50AC24777B891C602 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		D73E7BF79516414595479CF6 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		DA2E851556D3F2E65E65A28A /* Pods-movie_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie_app.debug.xcconfig"; path = "Target Support Files/Pods-movie_app/Pods-movie_app.debug.xcconfig"; sourceTree = "<group>"; };
-		E2ABBE12306ABD658EE3FC82 /* libPods-movie_app-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-movie_app-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7E9B614F8D5074DEA2DF575 /* Pods-movie_app-movie_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie_app-movie_appTests.release.xcconfig"; path = "Target Support Files/Pods-movie_app-movie_appTests/Pods-movie_app-movie_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA2E851556D3F2E65E65A28A /* Pods-flickr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr.debug.xcconfig"; path = "Target Support Files/Pods-flickr/Pods-flickr.debug.xcconfig"; sourceTree = "<group>"; };
+		E2ABBE12306ABD658EE3FC82 /* libPods-flickr-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flickr-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E9B614F8D5074DEA2DF575 /* Pods-flickr-flickrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickr-flickrTests.release.xcconfig"; path = "Target Support Files/Pods-flickr-flickrTests/Pods-flickr-flickrTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FDFB35EA88194D0DB2698A74 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FDBFDE46599E3BDABDF1861 /* libPods-movie_app-movie_appTests.a in Frameworks */,
+				0FDBFDE46599E3BDABDF1861 /* libPods-flickr-flickrTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E2C518D63F33AA5C03D553 /* libPods-movie_app.a in Frameworks */,
+				73E2C518D63F33AA5C03D553 /* libPods-flickr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8334660EEE34587E0F5294C1 /* libPods-movie_app-tvOS.a in Frameworks */,
+				8334660EEE34587E0F5294C1 /* libPods-flickr-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,20 +132,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4471E46CF3214170B2C3D5CF /* libPods-movie_app-tvOSTests.a in Frameworks */,
+				4471E46CF3214170B2C3D5CF /* libPods-flickr-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* movie_appTests */ = {
+		00E356EF1AD99517003FC87E /* flickrTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* movie_appTests.m */,
+				00E356F21AD99517003FC87E /* flickrTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = movie_appTests;
+			path = flickrTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -180,7 +180,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* movie_app */ = {
+		13B07FAE1A68108700A75B9A /* flickr */ = {
 			isa = PBXGroup;
 			children = (
 				37717621246B809D00FE68BC /* Fonts */,
@@ -192,7 +192,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = movie_app;
+			name = flickr;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -200,10 +200,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				AAACFF58928037E095875978 /* libPods-movie_app.a */,
-				50CAFD2C4CD38DAD288384DC /* libPods-movie_app-movie_appTests.a */,
-				E2ABBE12306ABD658EE3FC82 /* libPods-movie_app-tvOS.a */,
-				8E8FDB4A0C554EB0F9B5D449 /* libPods-movie_app-tvOSTests.a */,
+				AAACFF58928037E095875978 /* libPods-flickr.a */,
+				50CAFD2C4CD38DAD288384DC /* libPods-flickr-flickrTests.a */,
+				E2ABBE12306ABD658EE3FC82 /* libPods-flickr-tvOS.a */,
+				8E8FDB4A0C554EB0F9B5D449 /* libPods-flickr-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -235,14 +235,14 @@
 		76B0D150629605B00E3C1DE8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA2E851556D3F2E65E65A28A /* Pods-movie_app.debug.xcconfig */,
-				1B8F7430DA6EF04FD23203A4 /* Pods-movie_app.release.xcconfig */,
-				A8AA41A2FBC97187B751C4B7 /* Pods-movie_app-movie_appTests.debug.xcconfig */,
-				E7E9B614F8D5074DEA2DF575 /* Pods-movie_app-movie_appTests.release.xcconfig */,
-				7022EBC2CAD270BA609EF30E /* Pods-movie_app-tvOS.debug.xcconfig */,
-				2D72CF8CF46E07FA65CE0661 /* Pods-movie_app-tvOS.release.xcconfig */,
-				7FB58280C3F306783C523AE8 /* Pods-movie_app-tvOSTests.debug.xcconfig */,
-				6A9468EB5336B800FCEBB754 /* Pods-movie_app-tvOSTests.release.xcconfig */,
+				DA2E851556D3F2E65E65A28A /* Pods-flickr.debug.xcconfig */,
+				1B8F7430DA6EF04FD23203A4 /* Pods-flickr.release.xcconfig */,
+				A8AA41A2FBC97187B751C4B7 /* Pods-flickr-flickrTests.debug.xcconfig */,
+				E7E9B614F8D5074DEA2DF575 /* Pods-flickr-flickrTests.release.xcconfig */,
+				7022EBC2CAD270BA609EF30E /* Pods-flickr-tvOS.debug.xcconfig */,
+				2D72CF8CF46E07FA65CE0661 /* Pods-flickr-tvOS.release.xcconfig */,
+				7FB58280C3F306783C523AE8 /* Pods-flickr-tvOSTests.debug.xcconfig */,
+				6A9468EB5336B800FCEBB754 /* Pods-flickr-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -257,9 +257,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* movie_app */,
+				13B07FAE1A68108700A75B9A /* flickr */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* movie_appTests */,
+				00E356EF1AD99517003FC87E /* flickrTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0B2FAFAFDD9D4D2BB0B79190 /* Resources */,
@@ -273,10 +273,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* movie_app.app */,
-				00E356EE1AD99517003FC87E /* movie_appTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* movie_app-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* movie_app-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* flickr.app */,
+				00E356EE1AD99517003FC87E /* flickrTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* flickr-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* flickr-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,9 +284,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* movie_appTests */ = {
+		00E356ED1AD99517003FC87E /* flickrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "movie_appTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "flickrTests" */;
 			buildPhases = (
 				72F3226D23BC8A534A9E6371 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -299,14 +299,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = movie_appTests;
-			productName = movie_appTests;
-			productReference = 00E356EE1AD99517003FC87E /* movie_appTests.xctest */;
+			name = flickrTests;
+			productName = flickrTests;
+			productReference = 00E356EE1AD99517003FC87E /* flickrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* movie_app */ = {
+		13B07F861A680F5B00A75B9A /* flickr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "movie_app" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "flickr" */;
 			buildPhases = (
 				DFCDD3A7124CD3C40AB685BE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -320,14 +320,14 @@
 			);
 			dependencies = (
 			);
-			name = movie_app;
-			productName = movie_app;
-			productReference = 13B07F961A680F5B00A75B9A /* movie_app.app */;
+			name = flickr;
+			productName = flickr;
+			productReference = 13B07F961A680F5B00A75B9A /* flickr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* movie_app-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* flickr-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "movie_app-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flickr-tvOS" */;
 			buildPhases = (
 				2480512BAAF2D2DD3CADBB84 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -340,14 +340,14 @@
 			);
 			dependencies = (
 			);
-			name = "movie_app-tvOS";
-			productName = "movie_app-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* movie_app-tvOS.app */;
+			name = "flickr-tvOS";
+			productName = "flickr-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* flickr-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* movie_app-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* flickr-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "movie_app-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flickr-tvOSTests" */;
 			buildPhases = (
 				DDA57058B0B7C714140EEAD2 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -359,9 +359,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "movie_app-tvOSTests";
-			productName = "movie_app-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* movie_app-tvOSTests.xctest */;
+			name = "flickr-tvOSTests";
+			productName = "flickr-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* flickr-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -391,7 +391,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "movie_app" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "flickr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -404,10 +404,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* movie_app */,
-				00E356ED1AD99517003FC87E /* movie_appTests */,
-				2D02E47A1E0B4A5D006451C7 /* movie_app-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* movie_app-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* flickr */,
+				00E356ED1AD99517003FC87E /* flickrTests */,
+				2D02E47A1E0B4A5D006451C7 /* flickr-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* flickr-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -468,7 +468,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-movie_app/Pods-movie_app-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-flickr/Pods-flickr-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -509,7 +509,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-movie_app/Pods-movie_app-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flickr/Pods-flickr-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2480512BAAF2D2DD3CADBB84 /* [CP] Check Pods Manifest.lock */ = {
@@ -527,7 +527,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-movie_app-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-flickr-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -563,7 +563,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-movie_app-movie_appTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-flickr-flickrTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -576,7 +576,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-movie_app-movie_appTests/Pods-movie_app-movie_appTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-flickr-flickrTests/Pods-flickr-flickrTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -617,7 +617,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-movie_app-movie_appTests/Pods-movie_app-movie_appTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flickr-flickrTests/Pods-flickr-flickrTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DDA57058B0B7C714140EEAD2 /* [CP] Check Pods Manifest.lock */ = {
@@ -635,7 +635,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-movie_app-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-flickr-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -657,7 +657,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-movie_app-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-flickr-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -709,7 +709,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* movie_appTests.m in Sources */,
+				00E356F31AD99517003FC87E /* flickrTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,7 +735,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* movie_appTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* flickrTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,12 +744,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* movie_app */;
+			target = 13B07F861A680F5B00A75B9A /* flickr */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* movie_app-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* flickr-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -761,7 +761,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = movie_app;
+			path = flickr;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -769,14 +769,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8AA41A2FBC97187B751C4B7 /* Pods-movie_app-movie_appTests.debug.xcconfig */;
+			baseConfigurationReference = A8AA41A2FBC97187B751C4B7 /* Pods-flickr-flickrTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = movie_appTests/Info.plist;
+				INFOPLIST_FILE = flickrTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -786,17 +786,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movie_app.app/movie_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flickr.app/flickr";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7E9B614F8D5074DEA2DF575 /* Pods-movie_app-movie_appTests.release.xcconfig */;
+			baseConfigurationReference = E7E9B614F8D5074DEA2DF575 /* Pods-flickr-flickrTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = movie_appTests/Info.plist;
+				INFOPLIST_FILE = flickrTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -806,13 +806,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movie_app.app/movie_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flickr.app/flickr";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA2E851556D3F2E65E65A28A /* Pods-movie_app.debug.xcconfig */;
+			baseConfigurationReference = DA2E851556D3F2E65E65A28A /* Pods-flickr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -823,7 +823,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = movie_app/Info.plist;
+				INFOPLIST_FILE = flickr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -831,7 +831,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = movie_app;
+				PRODUCT_NAME = flickr;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -840,13 +840,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B8F7430DA6EF04FD23203A4 /* Pods-movie_app.release.xcconfig */;
+			baseConfigurationReference = 1B8F7430DA6EF04FD23203A4 /* Pods-flickr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QJ8CH2FEPT;
-				INFOPLIST_FILE = movie_app/Info.plist;
+				INFOPLIST_FILE = flickr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -854,7 +854,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = movie_app;
+				PRODUCT_NAME = flickr;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -862,7 +862,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7022EBC2CAD270BA609EF30E /* Pods-movie_app-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 7022EBC2CAD270BA609EF30E /* Pods-flickr-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -873,14 +873,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "movie_app-tvOS/Info.plist";
+				INFOPLIST_FILE = "flickr-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.movie_app-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.flickr-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -890,7 +890,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D72CF8CF46E07FA65CE0661 /* Pods-movie_app-tvOS.release.xcconfig */;
+			baseConfigurationReference = 2D72CF8CF46E07FA65CE0661 /* Pods-flickr-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -901,14 +901,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "movie_app-tvOS/Info.plist";
+				INFOPLIST_FILE = "flickr-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.movie_app-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.flickr-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -918,7 +918,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FB58280C3F306783C523AE8 /* Pods-movie_app-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 7FB58280C3F306783C523AE8 /* Pods-flickr-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -928,24 +928,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "movie_app-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "flickr-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.movie_app-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.flickr-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movie_app-tvOS.app/movie_app-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flickr-tvOS.app/flickr-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A9468EB5336B800FCEBB754 /* Pods-movie_app-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 6A9468EB5336B800FCEBB754 /* Pods-flickr-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -955,17 +955,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "movie_app-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "flickr-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.movie_app-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.flickr-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movie_app-tvOS.app/movie_app-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flickr-tvOS.app/flickr-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1086,7 +1086,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "movie_appTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "flickrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1095,7 +1095,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "movie_app" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "flickr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1104,7 +1104,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "movie_app-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flickr-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1113,7 +1113,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "movie_app-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "flickr-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1122,7 +1122,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "movie_app" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "flickr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

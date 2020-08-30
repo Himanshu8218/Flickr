@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'movie_app' do
-  # Pods for movie_app
+target 'flickr' do
+  # Pods for flickr
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -75,7 +75,7 @@ target 'movie_app' do
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
-  target 'movie_appTests' do
+  target 'flickrTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -92,10 +92,10 @@ target 'movie_app' do
   end
 end
 
-target 'movie_app-tvOS' do
-  # Pods for movie_app-tvOS
+target 'flickr-tvOS' do
+  # Pods for flickr-tvOS
 
-  target 'movie_app-tvOSTests' do
+  target 'flickr-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
